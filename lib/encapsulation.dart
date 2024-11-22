@@ -1,13 +1,13 @@
 // encapsulation.dart
 
 class Person {
-  String name; // private
-  int age; // private
+  String name; // private variable
+  int age; // this is also private variable
 
-  // Constructor to initialize name and age
+  // constructor class to initialize name and age
   Person(this.name, this.age);
 
-  // Getter and setter methods to control access to private fields
+  // getter and setter methods for access to private variables
   String get getName => name;
   int get getAge => age;
 
@@ -21,7 +21,7 @@ class Person {
     }
   }
 
-  // Method to display info (Encapsulation)
+  // method for output (Encapsulation)
   void displayInfo() {
     print('Name: $name, Age: $age');
   }
